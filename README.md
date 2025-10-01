@@ -31,14 +31,14 @@ The main goal is to generate images from textual descriptions using GANs. The pr
    - Generated images from textual labels/categories (e.g., shapes like "circle" or "square").
 
 ## Folder Structure
-├── Task1_TextToImageGAN.ipynb
-├── Task2_Attention.ipynb
-├── Task3_CustomDataset.ipynb
-├── Task4_DatasetAnalysis.ipynb
-├── Task5_TextEmbeddings.ipynb
-├── Task6_CGAN.ipynb
-├── GAN_samples/ # Generated images
-└── README.md
+- Task1_TextToImageGAN.ipynb
+- Task2_Attention.ipynb
+- Task3_CustomDataset.ipynb
+- Task4_DatasetAnalysis.ipynb
+- Task5_TextEmbeddings.ipynb
+- Task6_CGAN.ipynb
+- GAN_samples/ # Generated images
+- README.md
 
 
 ## How to Run
