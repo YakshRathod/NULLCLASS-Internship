@@ -19,10 +19,10 @@ The main goal is to generate images from textual descriptions using GANs. The pr
    - Applied self-attention/cross-attention in the GAN to improve image quality.
 
 3. **Custom Dataset Fine-Tuning**  
-   - Fine-tuned the GAN on a custom dataset to generate domain-specific visuals.
+   - Fine-tuned a pre-trained text-to-image model on a custom dataset (subset of food-101 dataset) to generate domain-specific visuals.
 
 4. **Public Dataset Analysis**  
-   - Explored dataset statistics (e.g., COCO, Oxford-102 Flowers) and visualized text-image pairs.
+   - Explored dataset statistics (Oxford-102 Flowers) and visualized text-image pairs.
 
 5. **Text Embedding Preprocessing**  
    - Used a simple tokenizer to encode captions for GAN input.
@@ -37,7 +37,6 @@ The main goal is to generate images from textual descriptions using GANs. The pr
 - Task4_DatasetAnalysis.ipynb
 - Task5_TextEmbeddings.ipynb
 - Task6_CGAN.ipynb
-- GAN_samples/ # Generated images
 - README.md
 
 
@@ -56,7 +55,6 @@ The main goal is to generate images from textual descriptions using GANs. The pr
 - numpy
 
 ## Results
-- GAN-generated images are saved in `GAN_samples/`.
 - Training progress and loss curves are plotted in notebooks.
 
 ## Notes
